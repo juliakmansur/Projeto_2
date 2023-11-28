@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/images/contact.png" alt="Contact Icon">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <div id="novo-contato" >
+            <h3>Cadastrar Novo Contato</h3>
+            <form id="form-contatos">
+                <input type="text" id="nome-contato" required placeholder="Nome Completo (*)">
+                <input type="tel" id="cel" required placeholder="Celular (*)">
+                <input type="email" id="e-mail"  placeholder="e-Mail">
+                <input type="tel" id="tel-fixo"  placeholder="Telefone Fixo">
+                <button type="submit"><img src="./assets/images/new_contact.png" alt="Novo Contato Icon" ></button>
+            </form>
+        </div>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome Completo</th>
+                    <th>Celular</th>
+                    <th>e-Mail</th>
+                    <th>Tel. Fixo</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
